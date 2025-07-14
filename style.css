@@ -1,0 +1,28 @@
+:root {
+  --primary: #e1e1e1;
+  --secondary: #f1f1f1;
+  --neutral: #3b82f6;
+  --neutral-critical: #f63b3e;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  padding: 0 160px;
+  gap: 32px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+header {
+  background-color: var(--secondary);
+  grid-column: 1/4;
+  text-align: center;
+}
+section {
+  background-color: var(--primary);
+  grid-column: 4/13;
+  margin-left: -32px;
+  text-align: center;
+}
