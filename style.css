@@ -9,7 +9,7 @@
 }
 body {
   display: grid;
-  grid-template-columns: repeat(12 1fr);
+  grid-template-columns: repeat(12, 1fr);
   padding: 0 160px;
   gap: 32px;
   margin: 0 auto;
@@ -19,10 +19,75 @@ header {
   background-color: var(--secondary);
   grid-column: 1/4;
   text-align: center;
+  margin-right: -32px;
 }
 section {
   background-color: var(--primary);
   grid-column: 4/13;
-  margin-left: -32px;
+}
+.Search {
+  margin-top: 30px;
+}
+input {
+  margin-left: 64px;
+  margin-right: 64px;
+  width: 700px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+}
+.Day-delete {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 64px;
+  margin-right: 64px;
+}
+.delete-filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+h1 {
+  margin-left: 64px;
+}
+.container {
+  display: flex;
+  align-content: flex-start;
+  gap: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.container div {
+  min-width: 224px;
+  min-height: 50px;
+  background-color: var(--secondary);
   text-align: center;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+main {
+  margin-left: 64px;
+}
+.List {
+  width: 700px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: var(--secondary);
+  text-align: center;
+  margin: 20px 20px;
+}
+.main-container {
+  height: 250px;
+  overflow-y: auto;
+}
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+.Other {
+  margin-bottom: 30px;
 }
