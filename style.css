@@ -21,6 +21,9 @@ header {
   text-align: center;
   margin-right: -32px;
 }
+header div {
+  cursor: pointer;
+}
 section {
   background-color: var(--primary);
   grid-column: 4/13;
