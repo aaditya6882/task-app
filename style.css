@@ -71,7 +71,7 @@ h1 {
   display: none;
 }
 main {
-  margin-left: 64px;
+  margin: 0 64px;
 }
 .List {
   width: 700px;
@@ -79,7 +79,6 @@ main {
   border-radius: 10px;
   background-color: var(--secondary);
   text-align: center;
-  margin: 20px 20px;
 }
 .main-container {
   height: 250px;
