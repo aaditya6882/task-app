@@ -82,7 +82,7 @@ main {
   align-content: flex-start;
 }
 .main-container {
-  height: 250px;
+  height: 328px;
   overflow-y: auto;
 }
 .main-container::-webkit-scrollbar {
@@ -94,6 +94,7 @@ main {
 .select {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 .to-do-list {
   display: flex;
@@ -110,4 +111,7 @@ main {
 }
 h1 {
   margin-left: 20px;
+}
+.List p {
+  cursor: pointer;
 }
